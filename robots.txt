@@ -4,8 +4,4 @@
 User-agent: *
 Allow: /
 
-# Block access to assets folder (images don't need to be crawled as pages)
-Disallow: /assets/
-
-# Sitemap location
 Sitemap: https://ensurethequality.com/sitemap.xml
