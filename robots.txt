@@ -1,0 +1,11 @@
+# robots.txt for ensurethequality.com
+# Allow all search engines to crawl the full site
+
+User-agent: *
+Allow: /
+
+# Block access to assets folder (images don't need to be crawled as pages)
+Disallow: /assets/
+
+# Sitemap location
+Sitemap: https://ensurethequality.com/sitemap.xml
